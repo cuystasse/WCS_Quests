@@ -1,0 +1,59 @@
+    1  cd Téléchargements/clmystery-master/
+    2  ll
+    3  more instructions 
+    4  ls -l mystery
+    5  cd mystery/
+    6  more crimescene 
+    7  ls
+    8  ll
+    9  man grep
+   10  grep CLUE crimescene 
+   11  more people 
+   12  ls interviews/
+   13  ls memberships/
+   14  ls -l memberships/
+   15  more memberships/AAA
+   16  man more
+   17  more +500 memberships/AAA
+   18  ls
+   19  grep Annabel people 
+   20  ls streets/
+   21  more +179 streets/Buckingham_Place 
+   22  ls
+   23  ls interviews/interview-6*
+   24  more interviews/interview-699607
+   25  ls
+   26  ls vehicles 
+   27  grep L337*9 vehicles 
+   28  grep L337 vehicles 
+   29  more +40 streets/Hart_Place 
+   30  more interviews/interview-47246024
+   31  ls
+   32  head vehicles 
+   33  man grep
+   34  grep -A=8 L337 vehicles 
+   35  grep -A8 L337 vehicles 
+   36  grep -A6 L337 vehicles 
+   37  ls
+   38  grep Maher memberships/AAA
+   39  grep Bowers memberships/AAA
+   40  grep Germuska memberships/AAA
+   41  grep Owens memberships/AAA
+   42  head memberships/AAA
+   43  ls
+   44  ls memberships/
+   45* 
+   46  grep -c Joe\ Germuska memberships/
+   47  grep -c Joe\ Germuska memberships/*
+   48  grep -c Jeremy\ Bowers memberships/*
+   49  grep -c Jacqui\ Maher memberships/*
+   50  ls
+   51  grep Jacqui\ Maher people 
+   52  more +224 streets/Andover_Road 
+   53  grep Jeremy\ Bowers people 
+   54  more +284 streets/Dunstable_Road 
+   55  ls
+   56  more interviews/interview-9620713 
+   57  more interviews/interview-904020 
+   58  echo Jeremy Bowers
+   59  history > mon_historique.log
